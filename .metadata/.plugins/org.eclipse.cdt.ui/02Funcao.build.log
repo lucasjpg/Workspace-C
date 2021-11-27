@@ -1,0 +1,7 @@
+19:33:31 **** Rebuild of configuration Debug for project 02Funcao ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcao.o" "..\\src\\funcao.c" 
+gcc -o 02Funcao.exe "src\\funcao.o" 
+
+19:33:33 Build Finished. 0 errors, 0 warnings. (took 2s.220ms)
+

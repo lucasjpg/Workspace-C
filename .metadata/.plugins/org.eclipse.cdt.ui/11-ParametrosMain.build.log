@@ -1,0 +1,7 @@
+21:04:39 **** Incremental Build of configuration Debug for project 11-ParametrosMain ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\argmain.o" "..\\src\\argmain.c" 
+gcc -o 11-ParametrosMain.exe "src\\argmain.o" 
+
+21:04:40 Build Finished. 0 errors, 0 warnings. (took 721ms)
+

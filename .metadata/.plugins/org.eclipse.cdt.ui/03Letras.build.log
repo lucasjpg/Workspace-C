@@ -1,0 +1,5 @@
+17:36:03 **** Clean-only build of configuration Debug for project 03Letras ****
+rm -rf src/letras.d src/letras.o 03Letras.exe 
+
+17:36:03 Build Finished. 0 errors, 0 warnings. (took 228ms)
+

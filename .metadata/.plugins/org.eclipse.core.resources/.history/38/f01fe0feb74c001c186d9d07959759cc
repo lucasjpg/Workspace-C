@@ -1,0 +1,46 @@
+/*
+ * formatado.c
+ *
+ *  Created on: 23 de nov. de 2021
+ *      Author: Lucas
+ *
+ *      Exemplo para rodar o programa: cmd... 13_Leitura-Arquivos.exe ..\src\leitura.c
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(int argc, char *argv[]) {
+	setbuf(stdout, NULL);
+	FILE *p_file_append, *p_file_read;
+	char ch, nome[50];
+	int nota;
+
+	p_file_append = fopen("lista.txt", "a");
+	p_file_read = fopen("lista.txt", "r");
+
+	if (p_file_append == NULL || p_file_read == NULL) {
+		puts("Nao foi possivel abrir os arquivos!");
+		return EXIT_FAILURE;
+	}
+
+	while (fscanf(p_file_read, "%s %d", nome, &nota) != EOF) {
+		printf("%s %d\n", nome, nota);
+	}
+
+	do {
+		puts("Digite o nome: ");
+		gets(nome);
+		if (!strcasecmp(nome, "sair")) {
+			break;
+		}
+		puts("Digite a nota: ");
+		scanf("%d", &nota);
+
+	} while (1);
+
+
+	fclose(p_file);
+	return EXIT_SUCCESS;
+}

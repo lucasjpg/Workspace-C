@@ -1,0 +1,39 @@
+/*
+ ============================================================================
+ Name        : Arquivos
+ Author      : Lucas Juliano Possa Gomes
+ Version     : Única
+ Copyright   : Lucas Corp
+ Description : Pergunta 1 do trabalho 9.
+
+Implemente o utilitário Line.c que mostre o conteúdo de um arquivo recebido na linha de comando,
+mostrando cada linha o número respectivo.
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(int argc, char *argv[]) {
+	FILE *p_file;
+	char ch;
+	int cont = 1;
+
+	if (argc != 2) {
+		puts("Informe o nome do arquivo!");
+		return EXIT_FAILURE;
+	}
+	p_file = fopen(argv[1], "r");
+
+	printf("%d: ", cont);
+	while ((ch = fgetc(p_file)) != EOF) {
+		printf("%c", ch);
+		if (!strcasecmp(ch, "\n")) {
+			cont++;
+			printf("%d: ", cont);
+		}
+	}
+
+	return EXIT_SUCCESS;
+}

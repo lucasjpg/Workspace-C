@@ -1,0 +1,659 @@
+11:19:47 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+11:20:20 **** Rebuild of configuration Debug for project 11-PP-funcaotroca ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcaotroca.o" "..\\src\\funcaotroca.c" 
+gcc -o 11-PP-funcaotroca.exe "src\\funcaotroca.o" 
+Info: Nothing to build for T9-JogoMaiorCarta
+11:22:25 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+11:46:07 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+11:52:16 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+..\src\maiorcarta.c:37:5: error: 'mao_pc' redeclared as different kind of symbol
+ int mao_pc();
+     ^~~~~~
+..\src\maiorcarta.c:27:9: note: previous declaration of 'mao_pc' was here
+ Baralho mao_pc[MAO];
+         ^~~~~~
+..\src\maiorcarta.c: In function 'main':
+..\src\maiorcarta.c:40:17: warning: variable 'jogada_pc' set but not used [-Wunused-but-set-variable]
+  int jogada_pl, jogada_pc;
+                 ^~~~~~~~~
+..\src\maiorcarta.c:40:6: warning: variable 'jogada_pl' set but not used [-Wunused-but-set-variable]
+  int jogada_pl, jogada_pc;
+      ^~~~~~~~~
+..\src\maiorcarta.c: At top level:
+..\src\maiorcarta.c:53:5: error: 'mao_pc' redeclared as different kind of symbol
+ int mao_pc() {
+     ^~~~~~
+..\src\maiorcarta.c:27:9: note: previous declaration of 'mao_pc' was here
+ Baralho mao_pc[MAO];
+         ^~~~~~
+..\src\maiorcarta.c: In function 'mao_pc':
+..\src\maiorcarta.c:54:14: warning: unused variable 'i' [-Wunused-variable]
+  int indice, i;
+              ^
+..\src\maiorcarta.c: In function 'distribui_cartas':
+..\src\maiorcarta.c:125:9: error: subscripted value is neither array nor pointer nor vector
+   mao_pc[i].carta = baralho[indices[corta]].carta;
+         ^
+..\src\maiorcarta.c:126:9: error: subscripted value is neither array nor pointer nor vector
+   mao_pc[i].naipe = baralho[indices[corta]].naipe;
+         ^
+11:53:45 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+..\src\maiorcarta.c: In function 'main':
+..\src\maiorcarta.c:40:17: warning: variable 'jogada_pc' set but not used [-Wunused-but-set-variable]
+  int jogada_pl, jogada_pc;
+                 ^~~~~~~~~
+..\src\maiorcarta.c:40:6: warning: variable 'jogada_pl' set but not used [-Wunused-but-set-variable]
+  int jogada_pl, jogada_pc;
+      ^~~~~~~~~
+..\src\maiorcarta.c: In function 'retorna_indice_pc':
+..\src\maiorcarta.c:54:14: warning: unused variable 'i' [-Wunused-variable]
+  int indice, i;
+              ^
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file T9-JogoMaiorCarta.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:53:51 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+11:54:20 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+..\src\maiorcarta.c: In function 'main':
+..\src\maiorcarta.c:40:6: warning: variable 'jogada_pl' set but not used [-Wunused-but-set-variable]
+  int jogada_pl, jogada_pc;
+      ^~~~~~~~~
+..\src\maiorcarta.c: In function 'retorna_indice_pc':
+..\src\maiorcarta.c:56:14: warning: unused variable 'i' [-Wunused-variable]
+  int indice, i;
+              ^
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+11:55:09 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+..\src\maiorcarta.c: In function 'retorna_indice_pc':
+..\src\maiorcarta.c:57:14: warning: unused variable 'i' [-Wunused-variable]
+  int indice, i;
+              ^
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+11:56:37 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:00:52 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+..\src\maiorcarta.c: In function 'retorna_indice_pc':
+..\src\maiorcarta.c:64:27: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+   if (!jogadas_pc[indice] == indice) {
+                           ^~
+..\src\maiorcarta.c:59:14: warning: unused variable 'i' [-Wunused-variable]
+  int indice, i;
+              ^
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+Info: Nothing to build for T9-JogoMaiorCarta
+12:01:16 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:31:01 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+..\src\maiorcarta.c: In function 'main':
+..\src\maiorcarta.c:41:9: warning: variable 'jogada_pl' set but not used [-Wunused-but-set-variable]
+  int i, jogada_pl, jogada_pc;
+         ^~~~~~~~~
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:32:03 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:33:50 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file T9-JogoMaiorCarta.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:33:58 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:46:25 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file T9-JogoMaiorCarta.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:46:30 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:46:36 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:55:18 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:56:27 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file T9-JogoMaiorCarta.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:56:34 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+12:57:42 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+..\src\maiorcarta.c: In function 'apresenta':
+..\src\maiorcarta.c:219:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(5);
+  ^~~~~
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file T9-JogoMaiorCarta.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:59:32 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file T9-JogoMaiorCarta.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:00:01 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:02:31 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file T9-JogoMaiorCarta.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:02:37 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:03:12 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:04:32 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:06:30 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:08:37 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:11:32 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+..\src\maiorcarta.c: In function 'main':
+..\src\maiorcarta.c:51:2: warning: implicit declaration of function 'jogo' [-Wimplicit-function-declaration]
+  jogo();
+  ^~~~
+..\src\maiorcarta.c: At top level:
+..\src\maiorcarta.c:56:6: warning: conflicting types for 'jogo'
+ void jogo() {
+      ^~~~
+..\src\maiorcarta.c:51:2: note: previous implicit declaration of 'jogo' was here
+  jogo();
+  ^~~~
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:11:42 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:26:07 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+13:29:47 **** Incremental Build of configuration Debug for project T9-JogoMaiorCarta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maiorcarta.o" "..\\src\\maiorcarta.c" 
+gcc -o T9-JogoMaiorCarta.exe "src\\maiorcarta.o" 
+19:39:01 **** Rebuild of configuration Debug for project 13_Arquivos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arquivos.o" "..\\src\\arquivos.c" 
+..\src\arquivos.c: In function 'main':
+..\src\arquivos.c:17:2: error: 'p_file' undeclared (first use in this function)
+  p_file = fopen(argv[1], "r");
+  ^~~~~~
+..\src\arquivos.c:17:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\arquivos.c:12:8: warning: unused variable 'pfile' [-Wunused-variable]
+  FILE *pfile;
+        ^~~~~
+19:39:14 **** Incremental Build of configuration Debug for project 13_Arquivos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arquivos.o" "..\\src\\arquivos.c" 
+gcc -o 13_Arquivos.exe "src\\arquivos.o" 
+19:50:49 **** Rebuild of configuration Debug for project 13_Leitura-Arquivos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\leitura.o" "..\\src\\leitura.c" 
+gcc -o 13_Leitura-Arquivos.exe "src\\leitura.o" 
+20:11:04 **** Rebuild of configuration Debug for project 13_Escrita-Arquivos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\escrita.o" "..\\src\\escrita.c" 
+In file included from c:\mingw\include\stdio.h:69:0,
+                 from ..\src\escrita.c:10:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:216:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'
+ typedef __SIZE_TYPE__ size_t;
+ ^~~~~~~
+In file included from ..\src\escrita.c:10:0:
+c:\mingw\include\stdio.h:295:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    setvbuf (FILE *, char *, int, size_t);
+                                                                       ^~~~~~
+c:\mingw\include\stdio.h:345:54: error: unknown type name 'size_t'
+ extern int __mingw_stdio_redirect__(snprintf)(char*, size_t, const char*, ...);
+                                                      ^~~~~~
+c:\mingw\include\stdio.h:349:55: error: unknown type name 'size_t'
+ extern int __mingw_stdio_redirect__(vsnprintf)(char*, size_t, const char*, __VALIST);
+                                                       ^~~~~~
+c:\mingw\include\stdio.h:490:57: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int _snprintf (char *, size_t, const char *, ...);
+                                                         ^~~~~~
+c:\mingw\include\stdio.h:491:58: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int _vsnprintf (char *, size_t, const char *, __VALIST);
+                                                          ^~~~~~
+c:\mingw\include\stdio.h:502:23: error: unknown type name 'size_t'
+ int snprintf (char *, size_t, const char *, ...);
+                       ^~~~~~
+c:\mingw\include\stdio.h:505:24: error: unknown type name 'size_t'
+ int vsnprintf (char *, size_t, const char *, __VALIST);
+                        ^~~~~~
+c:\mingw\include\stdio.h:647:33: error: unknown type name 'size_t'
+ getdelim (char ** __restrict__, size_t * __restrict__, int, FILE * __restrict__);
+                                 ^~~~~~
+c:\mingw\include\stdio.h:650:32: error: unknown type name 'size_t'
+ getline (char ** __restrict__, size_t * __restrict__, FILE * __restrict__);
+                                ^~~~~~
+c:\mingw\include\stdio.h:734:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                  ^~~~~~
+c:\mingw\include\stdio.h:734:56: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                                        ^~~~~~
+c:\mingw\include\stdio.h:734:64: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                                                ^~~~~~
+c:\mingw\include\stdio.h:735:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                  ^~~~~~
+c:\mingw\include\stdio.h:735:63: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                               ^~~~~~
+c:\mingw\include\stdio.h:735:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                                       ^~~~~~
+c:\mingw\include\stdio.h:962:64: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    _snwprintf (wchar_t *, size_t, const wchar_t *, ...);
+                                                                ^~~~~~
+c:\mingw\include\stdio.h:964:65: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    _vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
+                                                                 ^~~~~~
+c:\mingw\include\stdio.h:1006:52: error: unknown type name 'size_t'
+ __cdecl __MINGW_NOTHROW  int snwprintf (wchar_t *, size_t, const wchar_t *, ...);
+                                                    ^~~~~~
+c:\mingw\include\stdio.h:1007:53: error: unknown type name 'size_t'
+ __cdecl __MINGW_NOTHROW  int vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
+                                                     ^~~~~~
+In file included from ..\src\escrita.c:11:0:
+c:\mingw\include\stdlib.h:468:50: error: unknown type name 'size_t'
+ wchar_t *_wfullpath (wchar_t *, const wchar_t *, size_t);
+                                                  ^~~~~~
+c:\mingw\include\stdlib.h:474:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t wcstombs (char *, const wchar_t *, size_t);
+                                  ^~~~~~
+c:\mingw\include\stdlib.h:474:76: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t wcstombs (char *, const wchar_t *, size_t);
+                                                                            ^~~~~~
+c:\mingw\include\stdlib.h:477:59: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int mblen (const char *, size_t);
+                                                           ^~~~~~
+c:\mingw\include\stdlib.h:478:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t mbstowcs (wchar_t *, const char *, size_t);
+                                  ^~~~~~
+c:\mingw\include\stdlib.h:478:76: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t mbstowcs (wchar_t *, const char *, size_t);
+                                                                            ^~~~~~
+c:\mingw\include\stdlib.h:479:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int mbtowc (wchar_t *, const char *, size_t);
+                                                                       ^~~~~~
+c:\mingw\include\stdlib.h:486:57: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  void *realloc (void *, size_t);
+                                                         ^~~~~~
+c:\mingw\include\stdlib.h:504:30: error: unknown type name 'size_t'
+ (const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
+                              ^~~~~~
+c:\mingw\include\stdlib.h:504:38: error: unknown type name 'size_t'
+ (const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
+                                      ^~~~~~
+c:\mingw\include\stdlib.h:507:10: error: unknown type name 'size_t'
+ (void *, size_t, size_t, int (*)(const void *, const void *));
+          ^~~~~~
+c:\mingw\include\stdlib.h:507:18: error: unknown type name 'size_t'
+ (void *, size_t, size_t, int (*)(const void *, const void *));
+                  ^~~~~~
+c:\mingw\include\stdlib.h:569:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *_fullpath (char*, const char*, size_t);
+                                                                       ^~~~~~
+20:11:23 **** Incremental Build of configuration Debug for project 13_Escrita-Arquivos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\escrita.o" "..\\src\\escrita.c" 
+In file included from c:\mingw\include\stdio.h:69:0,
+                 from ..\src\escrita.c:10:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:216:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'
+ typedef __SIZE_TYPE__ size_t;
+ ^~~~~~~
+In file included from ..\src\escrita.c:10:0:
+c:\mingw\include\stdio.h:295:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    setvbuf (FILE *, char *, int, size_t);
+                                                                       ^~~~~~
+c:\mingw\include\stdio.h:345:54: error: unknown type name 'size_t'
+ extern int __mingw_stdio_redirect__(snprintf)(char*, size_t, const char*, ...);
+                                                      ^~~~~~
+c:\mingw\include\stdio.h:349:55: error: unknown type name 'size_t'
+ extern int __mingw_stdio_redirect__(vsnprintf)(char*, size_t, const char*, __VALIST);
+                                                       ^~~~~~
+c:\mingw\include\stdio.h:490:57: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int _snprintf (char *, size_t, const char *, ...);
+                                                         ^~~~~~
+c:\mingw\include\stdio.h:491:58: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int _vsnprintf (char *, size_t, const char *, __VALIST);
+                                                          ^~~~~~
+c:\mingw\include\stdio.h:502:23: error: unknown type name 'size_t'
+ int snprintf (char *, size_t, const char *, ...);
+                       ^~~~~~
+c:\mingw\include\stdio.h:505:24: error: unknown type name 'size_t'
+ int vsnprintf (char *, size_t, const char *, __VALIST);
+                        ^~~~~~
+c:\mingw\include\stdio.h:647:33: error: unknown type name 'size_t'
+ getdelim (char ** __restrict__, size_t * __restrict__, int, FILE * __restrict__);
+                                 ^~~~~~
+c:\mingw\include\stdio.h:650:32: error: unknown type name 'size_t'
+ getline (char ** __restrict__, size_t * __restrict__, FILE * __restrict__);
+                                ^~~~~~
+c:\mingw\include\stdio.h:734:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                  ^~~~~~
+c:\mingw\include\stdio.h:734:56: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                                        ^~~~~~
+c:\mingw\include\stdio.h:734:64: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                                                ^~~~~~
+c:\mingw\include\stdio.h:735:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                  ^~~~~~
+c:\mingw\include\stdio.h:735:63: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                               ^~~~~~
+c:\mingw\include\stdio.h:735:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                                       ^~~~~~
+c:\mingw\include\stdio.h:962:64: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    _snwprintf (wchar_t *, size_t, const wchar_t *, ...);
+                                                                ^~~~~~
+c:\mingw\include\stdio.h:964:65: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    _vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
+                                                                 ^~~~~~
+c:\mingw\include\stdio.h:1006:52: error: unknown type name 'size_t'
+ __cdecl __MINGW_NOTHROW  int snwprintf (wchar_t *, size_t, const wchar_t *, ...);
+                                                    ^~~~~~
+c:\mingw\include\stdio.h:1007:53: error: unknown type name 'size_t'
+ __cdecl __MINGW_NOTHROW  int vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
+                                                     ^~~~~~
+In file included from ..\src\escrita.c:11:0:
+c:\mingw\include\stdlib.h:468:50: error: unknown type name 'size_t'
+ wchar_t *_wfullpath (wchar_t *, const wchar_t *, size_t);
+                                                  ^~~~~~
+c:\mingw\include\stdlib.h:474:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t wcstombs (char *, const wchar_t *, size_t);
+                                  ^~~~~~
+c:\mingw\include\stdlib.h:474:76: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t wcstombs (char *, const wchar_t *, size_t);
+                                                                            ^~~~~~
+c:\mingw\include\stdlib.h:477:59: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int mblen (const char *, size_t);
+                                                           ^~~~~~
+c:\mingw\include\stdlib.h:478:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t mbstowcs (wchar_t *, const char *, size_t);
+                                  ^~~~~~
+c:\mingw\include\stdlib.h:478:76: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t mbstowcs (wchar_t *, const char *, size_t);
+                                                                            ^~~~~~
+c:\mingw\include\stdlib.h:479:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int mbtowc (wchar_t *, const char *, size_t);
+                                                                       ^~~~~~
+c:\mingw\include\stdlib.h:486:57: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  void *realloc (void *, size_t);
+                                                         ^~~~~~
+c:\mingw\include\stdlib.h:504:30: error: unknown type name 'size_t'
+ (const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
+                              ^~~~~~
+c:\mingw\include\stdlib.h:504:38: error: unknown type name 'size_t'
+ (const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
+                                      ^~~~~~
+c:\mingw\include\stdlib.h:507:10: error: unknown type name 'size_t'
+ (void *, size_t, size_t, int (*)(const void *, const void *));
+          ^~~~~~
+c:\mingw\include\stdlib.h:507:18: error: unknown type name 'size_t'
+ (void *, size_t, size_t, int (*)(const void *, const void *));
+                  ^~~~~~
+c:\mingw\include\stdlib.h:569:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *_fullpath (char*, const char*, size_t);
+                                                                       ^~~~~~
+20:13:17 **** Incremental Build of configuration Debug for project 13_Escrita-Arquivos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\escrita.o" "..\\src\\escrita.c" 
+In file included from c:\mingw\include\stdio.h:69:0,
+                 from ..\src\escrita.c:10:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:216:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'
+ typedef __SIZE_TYPE__ size_t;
+ ^~~~~~~
+In file included from ..\src\escrita.c:10:0:
+c:\mingw\include\stdio.h:295:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    setvbuf (FILE *, char *, int, size_t);
+                                                                       ^~~~~~
+c:\mingw\include\stdio.h:345:54: error: unknown type name 'size_t'
+ extern int __mingw_stdio_redirect__(snprintf)(char*, size_t, const char*, ...);
+                                                      ^~~~~~
+c:\mingw\include\stdio.h:349:55: error: unknown type name 'size_t'
+ extern int __mingw_stdio_redirect__(vsnprintf)(char*, size_t, const char*, __VALIST);
+                                                       ^~~~~~
+c:\mingw\include\stdio.h:490:57: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int _snprintf (char *, size_t, const char *, ...);
+                                                         ^~~~~~
+c:\mingw\include\stdio.h:491:58: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int _vsnprintf (char *, size_t, const char *, __VALIST);
+                                                          ^~~~~~
+c:\mingw\include\stdio.h:502:23: error: unknown type name 'size_t'
+ int snprintf (char *, size_t, const char *, ...);
+                       ^~~~~~
+c:\mingw\include\stdio.h:505:24: error: unknown type name 'size_t'
+ int vsnprintf (char *, size_t, const char *, __VALIST);
+                        ^~~~~~
+c:\mingw\include\stdio.h:647:33: error: unknown type name 'size_t'
+ getdelim (char ** __restrict__, size_t * __restrict__, int, FILE * __restrict__);
+                                 ^~~~~~
+c:\mingw\include\stdio.h:650:32: error: unknown type name 'size_t'
+ getline (char ** __restrict__, size_t * __restrict__, FILE * __restrict__);
+                                ^~~~~~
+c:\mingw\include\stdio.h:734:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                  ^~~~~~
+c:\mingw\include\stdio.h:734:56: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                                        ^~~~~~
+c:\mingw\include\stdio.h:734:64: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                                                ^~~~~~
+c:\mingw\include\stdio.h:735:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                  ^~~~~~
+c:\mingw\include\stdio.h:735:63: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                               ^~~~~~
+c:\mingw\include\stdio.h:735:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                                       ^~~~~~
+c:\mingw\include\stdio.h:962:64: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    _snwprintf (wchar_t *, size_t, const wchar_t *, ...);
+                                                                ^~~~~~
+c:\mingw\include\stdio.h:964:65: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    _vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
+                                                                 ^~~~~~
+c:\mingw\include\stdio.h:1006:52: error: unknown type name 'size_t'
+ __cdecl __MINGW_NOTHROW  int snwprintf (wchar_t *, size_t, const wchar_t *, ...);
+                                                    ^~~~~~
+c:\mingw\include\stdio.h:1007:53: error: unknown type name 'size_t'
+ __cdecl __MINGW_NOTHROW  int vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
+                                                     ^~~~~~
+In file included from ..\src\escrita.c:11:0:
+c:\mingw\include\stdlib.h:468:50: error: unknown type name 'size_t'
+ wchar_t *_wfullpath (wchar_t *, const wchar_t *, size_t);
+                                                  ^~~~~~
+c:\mingw\include\stdlib.h:474:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t wcstombs (char *, const wchar_t *, size_t);
+                                  ^~~~~~
+c:\mingw\include\stdlib.h:474:76: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t wcstombs (char *, const wchar_t *, size_t);
+                                                                            ^~~~~~
+c:\mingw\include\stdlib.h:477:59: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int mblen (const char *, size_t);
+                                                           ^~~~~~
+c:\mingw\include\stdlib.h:478:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t mbstowcs (wchar_t *, const char *, size_t);
+                                  ^~~~~~
+c:\mingw\include\stdlib.h:478:76: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t mbstowcs (wchar_t *, const char *, size_t);
+                                                                            ^~~~~~
+c:\mingw\include\stdlib.h:479:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int mbtowc (wchar_t *, const char *, size_t);
+                                                                       ^~~~~~
+c:\mingw\include\stdlib.h:486:57: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  void *realloc (void *, size_t);
+                                                         ^~~~~~
+c:\mingw\include\stdlib.h:504:30: error: unknown type name 'size_t'
+ (const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
+                              ^~~~~~
+c:\mingw\include\stdlib.h:504:38: error: unknown type name 'size_t'
+ (const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
+                                      ^~~~~~
+c:\mingw\include\stdlib.h:507:10: error: unknown type name 'size_t'
+ (void *, size_t, size_t, int (*)(const void *, const void *));
+          ^~~~~~
+c:\mingw\include\stdlib.h:507:18: error: unknown type name 'size_t'
+ (void *, size_t, size_t, int (*)(const void *, const void *));
+                  ^~~~~~
+c:\mingw\include\stdlib.h:569:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *_fullpath (char*, const char*, size_t);
+                                                                       ^~~~~~
+20:13:56 **** Incremental Build of configuration Debug for project 13_Escrita-Arquivos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\escrita.o" "..\\src\\escrita.c" 
+gcc -o 13_Escrita-Arquivos.exe "src\\escrita.o" 
+20:56:26 **** Rebuild of configuration Debug for project 13_Escrita-Formatada ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\formatado.o" "..\\src\\formatado.c" 
+..\src\formatado.c: In function 'main':
+..\src\formatado.c:17:7: warning: unused variable 'ch' [-Wunused-variable]
+  char ch, nome[50];
+       ^~
+gcc -o 13_Escrita-Formatada.exe "src\\formatado.o" 
+20:57:10 **** Incremental Build of configuration Debug for project 13_Escrita-Formatada ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\formatado.o" "..\\src\\formatado.c" 
+..\src\formatado.c: In function 'main':
+..\src\formatado.c:40:28: warning: format '%c' expects argument of type 'int', but argument 3 has type 'char *' [-Wformat=]
+   fprintf(p_file_append, "%c\t%d", nome, nota);
+                            ^
+gcc -o 13_Escrita-Formatada.exe "src\\formatado.o" 
+20:57:20 **** Incremental Build of configuration Debug for project 13_Escrita-Formatada ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\formatado.o" "..\\src\\formatado.c" 
+gcc -o 13_Escrita-Formatada.exe "src\\formatado.o" 
+20:59:28 **** Incremental Build of configuration Debug for project 13_Escrita-Formatada ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\formatado.o" "..\\src\\formatado.c" 
+gcc -o 13_Escrita-Formatada.exe "src\\formatado.o" 
+21:00:26 **** Incremental Build of configuration Debug for project 13_Escrita-Formatada ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\formatado.o" "..\\src\\formatado.c" 
+gcc -o 13_Escrita-Formatada.exe "src\\formatado.o" 
+21:04:41 **** Incremental Build of configuration Debug for project 13_Escrita-Formatada ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\formatado.o" "..\\src\\formatado.c" 
+gcc -o 13_Escrita-Formatada.exe "src\\formatado.o" 
+21:14:46 **** Rebuild of configuration Debug for project T9_Line ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Line.o" "..\\src\\Line.c" 
+..\src\Line.c: In function 'main':
+..\src\Line.c:18:8: warning: unused variable 'p_file' [-Wunused-variable]
+  FILE *p_file;
+        ^~~~~~
+gcc -o T9_Line.exe "src\\Line.o" 
+21:21:02 **** Incremental Build of configuration Debug for project T9_Line ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Line.o" "..\\src\\Line.c" 
+..\src\Line.c: In function 'main':
+..\src\Line.c:31:10: warning: comparison between pointer and integer
+   if (ch == "\n") {
+          ^~
+..\src\Line.c:31:10: warning: comparison with string literal results in unspecified behavior [-Waddress]
+gcc -o T9_Line.exe "src\\Line.o" 
+21:21:25 **** Incremental Build of configuration Debug for project T9_Line ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Line.o" "..\\src\\Line.c" 
+..\src\Line.c: In function 'main':
+..\src\Line.c:31:10: warning: comparison between pointer and integer
+   if (ch == "\n") {
+          ^~
+..\src\Line.c:31:10: warning: comparison with string literal results in unspecified behavior [-Waddress]
+gcc -o T9_Line.exe "src\\Line.o" 
+21:23:44 **** Incremental Build of configuration Debug for project T9_Line ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Line.o" "..\\src\\Line.c" 
+..\src\Line.c: In function 'main':
+..\src\Line.c:31:10: warning: comparison between pointer and integer
+   if (ch == "\n") {
+          ^~
+..\src\Line.c:31:10: warning: comparison with string literal results in unspecified behavior [-Waddress]
+gcc -o T9_Line.exe "src\\Line.o" 
+21:25:06 **** Incremental Build of configuration Debug for project T9_Line ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Line.o" "..\\src\\Line.c" 
+..\src\Line.c: In function 'main':
+..\src\Line.c:32:19: warning: passing argument 1 of 'strcasecmp' makes pointer from integer without a cast [-Wint-conversion]
+   if (!strcasecmp(ch, "\n")) {
+                   ^~
+In file included from c:\mingw\include\string.h:62:0,
+                 from ..\src\Line.c:16:
+c:\mingw\include\strings.h:63:29: note: expected 'const char *' but argument is of type 'char'
+ int __cdecl __MINGW_NOTHROW strcasecmp( const char *, const char * );
+                             ^~~~~~~~~~
+gcc -o T9_Line.exe "src\\Line.o" 
+21:26:40 **** Incremental Build of configuration Debug for project T9_Line ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Line.o" "..\\src\\Line.c" 
+gcc -o T9_Line.exe "src\\Line.o" 
+21:31:05 **** Incremental Build of configuration Debug for project T9_Line ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Line.o" "..\\src\\Line.c" 
+gcc -o T9_Line.exe "src\\Line.o" 

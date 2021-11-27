@@ -1,0 +1,7 @@
+19:33:29 **** Rebuild of configuration Debug for project 02Fibonacci ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fibonacci.o" "..\\src\\fibonacci.c" 
+gcc -o 02Fibonacci.exe "src\\fibonacci.o" 
+
+19:33:31 Build Finished. 0 errors, 0 warnings. (took 1s.599ms)
+

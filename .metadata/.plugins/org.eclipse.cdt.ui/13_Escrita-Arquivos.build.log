@@ -1,7 +1,0 @@
-20:13:56 **** Incremental Build of configuration Debug for project 13_Escrita-Arquivos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\escrita.o" "..\\src\\escrita.c" 
-gcc -o 13_Escrita-Arquivos.exe "src\\escrita.o" 
-
-20:13:57 Build Finished. 0 errors, 0 warnings. (took 810ms)
-

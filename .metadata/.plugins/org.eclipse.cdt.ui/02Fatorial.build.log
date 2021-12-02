@@ -1,7 +1,0 @@
-19:33:27 **** Rebuild of configuration Debug for project 02Fatorial ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fatorial.o" "..\\src\\fatorial.c" 
-gcc -o 02Fatorial.exe "src\\fatorial.o" 
-
-19:33:29 Build Finished. 0 errors, 0 warnings. (took 2s.133ms)
-

@@ -1,5 +1,0 @@
-17:36:02 **** Clean-only build of configuration Debug for project 02TabuadaDo5 ****
-rm -rf 02TabuadaDo5.exe src/tabuadafive.d src/tabuadafive.o 
-
-17:36:02 Build Finished. 0 errors, 0 warnings. (took 202ms)
-

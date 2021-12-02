@@ -1,7 +1,0 @@
-19:33:35 **** Rebuild of configuration Debug for project 02Tabuada ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tabuada.o" "..\\src\\tabuada.c" 
-Command canceled
-
-19:33:36 Build Finished. 0 errors, 0 warnings. (took 462ms)
-

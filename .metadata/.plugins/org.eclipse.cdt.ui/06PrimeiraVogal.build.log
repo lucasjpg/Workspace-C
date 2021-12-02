@@ -1,7 +1,0 @@
-22:45:54 **** Incremental Build of configuration Debug for project 06PrimeiraVogal ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primeiravogal.o" "..\\src\\primeiravogal.c" 
-gcc -o 06PrimeiraVogal.exe "src\\primeiravogal.o" 
-
-22:45:55 Build Finished. 0 errors, 0 warnings. (took 1s.75ms)
-

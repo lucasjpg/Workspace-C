@@ -1,7 +1,0 @@
-21:01:18 **** Incremental Build of configuration Debug for project 12_Structs-Funcoes ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\strct_funcoes.o" "..\\src\\strct_funcoes.c" 
-gcc -o 12_Structs-Funcoes.exe "src\\strct_funcoes.o" 
-
-21:01:19 Build Finished. 0 errors, 0 warnings. (took 825ms)
-

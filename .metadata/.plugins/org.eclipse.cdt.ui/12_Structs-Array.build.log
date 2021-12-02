@@ -1,7 +1,0 @@
-20:14:13 **** Incremental Build of configuration Debug for project 12_Structs-Array ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\strct_array.o" "..\\src\\strct_array.c" 
-gcc -o 12_Structs-Array.exe "src\\strct_array.o" 
-
-20:14:14 Build Finished. 0 errors, 0 warnings. (took 884ms)
-

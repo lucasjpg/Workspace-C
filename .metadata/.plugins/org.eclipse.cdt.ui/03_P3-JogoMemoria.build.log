@@ -1,5 +1,0 @@
-17:36:03 **** Clean-only build of configuration Debug for project 03_P3-JogoMemoria ****
-rm -rf 03_P3-JogoMemoria.exe src/memoria.o src/memoria.d 
-
-17:36:04 Build Finished. 0 errors, 0 warnings. (took 124ms)
-

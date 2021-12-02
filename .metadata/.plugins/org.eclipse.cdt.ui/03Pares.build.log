@@ -1,5 +1,0 @@
-17:36:03 **** Clean-only build of configuration Debug for project 03Pares ****
-rm -rf src/pares.d 03Pares.exe src/pares.o 
-
-17:36:03 Build Finished. 0 errors, 0 warnings. (took 149ms)
-

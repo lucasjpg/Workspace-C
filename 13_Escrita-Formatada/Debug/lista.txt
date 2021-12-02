@@ -1,5 +1,0 @@
-Lucas	10
-Pedro	4
-Joao	8
-Guilherme	9
-Dinho	8
